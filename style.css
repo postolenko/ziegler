@@ -978,15 +978,15 @@ textarea:focus {
     display: inline-block;
     vertical-align: top;
     width: 100%;
-    max-width: 282px;
-    margin-right: 6%;
+    max-width: 305px;
+    margin-right: 5%;
 }
 
 .logo {
     display: inline-block;
     vertical-align: top;
     margin-top: 4px;
-    margin-right: 8%;
+    margin-right: 46px;
 }
 
 .logo-big {
