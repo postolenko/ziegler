@@ -1092,6 +1092,20 @@ textarea:focus {
     z-index: 2;
 }
 
+.artilce_1 .row:before {
+    display: block;
+    content: "";
+    width: 258px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 58%;
+    background: #DA001A;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+}
+
 .artilce_1 .col-1 {
     display: inline-block;
     vertical-align: middle;
@@ -1112,20 +1126,6 @@ textarea:focus {
     vertical-align: middle;
     width: 50%;
     position: relative;
-}
-
-.artilce_1:before {
-    display: block;
-    content: "";
-    width: 258px;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 56%;
-    background: #DA001A;
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(-20deg);
-    -o-transform: skew(-20deg);
 }
 
 .artilce_1 .col-2 .inner {
