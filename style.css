@@ -975,7 +975,11 @@ textarea:focus {
 }
 
 .logo_wrapp {
-    margin-right: 4%;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    max-width: 282px;
+    margin-right: 6%;
 }
 
 .logo {
@@ -1038,8 +1042,15 @@ textarea:focus {
 
 /*-- Section 1 --*/
 
+.section-slider + section{
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
 .promo-slider_wrapp {
     position: relative;
+    overflow: hidden;
 }
 
 .append-arrows_promo-slider {
@@ -1068,7 +1079,9 @@ textarea:focus {
 }
 
 .artilce_1 {
-    background: #ffffff;
+    background: #ffffff;    
+    height: 500px;
+    overflow: hidden;
 }
 
 .artilce_1 .row {
@@ -1195,6 +1208,7 @@ h2.red {
     background: #252525;
     position: absolute;
     top: 0;
+    left: unset;
     right: 0;
 }
 
@@ -1250,14 +1264,6 @@ h2.red {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-}
-
-.article_2 .col:nth-child(odd) {
-    /*float: left;*/
-}
-
-.article_2 .col:nth-child(even) {
-    /*float: right;*/
 }
 
 .article_2:nth-child(even) .col:nth-child(odd) {
