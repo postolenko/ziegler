@@ -1088,6 +1088,8 @@ textarea:focus {
     font-size: 0;
     line-height: 0;
     height: 500px;
+    position: relative;
+    z-index: 2;
 }
 
 .artilce_1 .col-1 {
@@ -1112,14 +1114,14 @@ textarea:focus {
     position: relative;
 }
 
-.artilce_1 .col-2:before {
+.artilce_1:before {
     display: block;
     content: "";
     width: 258px;
     height: 100%;
     position: absolute;
     top: 0;
-    left: 13%;
+    left: 56%;
     background: #DA001A;
     -webkit-transform: skew(-20deg);
     -moz-transform: skew(-20deg);
