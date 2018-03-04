@@ -464,6 +464,14 @@
 
 	/*-- /Section 2 --*/
 
+	/*-- Section 1 - About --*/
+
+	.photo_single {
+	    margin: 20px 0;
+	}
+
+	/*-- /Section 1 - About --*/
+
 	/*-- Section 1 - Contacts --*/
 
 	.contacts-templ {

@@ -1710,10 +1710,8 @@ h2.red {
 
 .photo_single {
     display: block;
-    width: auto;
+    width: 100%;
     height: auto;
-    min-width: 100%;
-    min-height: 100%;
     margin: 20px 0 59px 0;
 }
 
