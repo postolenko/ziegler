@@ -340,6 +340,10 @@
 	    width: 100%;
 	}
 
+	.artilce_1 h2 {
+		font-weight: normal;
+	}
+
 	.artilce_1 .col-1 .inner {
 	    max-width: 500px;
 	    margin-top: 38px;
