@@ -420,6 +420,8 @@ textarea:focus {
     display: block;
     width: 40px;
     height: 40px;
+    cursor: pointer;
+    position: relative;
     border: 1px solid #707070;
     background: rgba(218, 0, 26, 0);
 }
@@ -1806,15 +1808,16 @@ h2.red {
 
 .good-slider_wrapp {
     /*width: 103%;*/
-    margin: 20px 0 10px 0;
+    max-width: 590px;
+    margin: 20px auto 10px auto;
 }
 
-.good-slider_wrapp .slider-col-1 {
-    width: 100px;
+.good-slider_wrapp .slider-col-1 {    
+    width: calc(100% - 100px);
 }
 
 .good-slider_wrapp .slider-col-2 {
-    width: calc(100% - 100px);
+    width: 100px;
 }
 
 .good_slider_miniature_wrapp {
@@ -1832,8 +1835,9 @@ h2.red {
 
 .good_slider_miniature .img-box {
     border: 1px solid #D9D9D9;
-    width: 74px ;
-    height: 74px ;
+    width: 74px;
+    height: 74px;
+    overflow: hidden;
     /*position: relative;*/
     -webkit-transition-property: all;
     -webkit-transition-duration: .3s;
@@ -1906,7 +1910,30 @@ h2.red {
 }
 
 .good_slider_big {
+    position: relative;
+}
 
+.good_slider_big .slick-arrow {
+    position: absolute;
+    top: 100%;
+    margin-top: -36px;
+    z-index: 2;
+    background: rgba(218, 0, 26, .9);
+    border: 1px solid #DA001A;
+}
+
+.good_slider_big .slick-arrow:link,
+.good_slider_big .slick-arrow:visited {
+    background: rgba(218, 0, 26, .9);
+    border: 1px solid #DA001A;
+}
+
+.good_slider_big .slick-prev {
+    left: 0;
+}
+
+.good_slider_big .slick-next {
+    right: 0;
 }
 
 .good_slider_big .slide {
@@ -1915,7 +1942,6 @@ h2.red {
 }
 
 .good_slider_big .slide .img-box {
-    /*position: relative;*/
     height: 506px;
     overflow: hidden;
 }
@@ -1936,7 +1962,9 @@ h2.red {
 
 .table {
     display: table;
+    /*width: inherit;*/
     width: 100%;
+    /*min-width: 100%;*/
     margin: 34px 0 14px 0;
     border-collapse: collapse;
 }
@@ -1958,6 +1986,10 @@ h2.red {
     color: #403226;
 }
 
+.table_1 {
+    min-width: 550px;
+}
+
 .table_1 .table-row .table-cell {
     width: 9%;
 }
@@ -1975,6 +2007,11 @@ h2.red {
 
 /*-- Section 1 - Corn Champion 2 --*/
 
+.table_2 {
+    width: 100%;
+    min-width: 420px;
+}
+
 .table_2 .table-row .table-cell {
     width: 18%;
 }
@@ -1991,6 +2028,10 @@ h2.red {
 /*-- /Section 1 - Corn Champion 2 --*/
 
 /*-- Section 1 - Page --*/
+
+.table_3 {
+    min-width: 550px;
+}
 
 .table_3 .table-row .table-cell {
     width: 20%;
@@ -2046,7 +2087,9 @@ h2.red {
 }
 
 .video-box {
-    width: 830px;
+    /*width: 830px;*/
+    width: 100%;
+    max-width: 830px;
     height: 465px;
     overflow: hidden;
     margin: 29px auto 80px auto;
@@ -2070,6 +2113,23 @@ h2.red {
 
  /*-- Section 1 - SUNFLOWER CHAMPION --*/
 
+.table_4 {
+    min-width: 550px;
+}
+
+.table_4 .table-row .table-cell {
+    width: 21%;
+}
+
+.table_4 .table-row .table-cell:nth-child(1) {
+    width: 37%;
+    padding-left: 0;
+}
+
+.table_4 .table-row .table-cell:last-child {
+    padding-right: 0;
+}
+
 .photo_single_2 {
     display: block;
     width: auto;
@@ -2081,7 +2141,7 @@ h2.red {
 
  /*-- /Section 1 - SUNFLOWER CHAMPION --*/
 
-/*-- Section 1 - SUNFLOWER CHAMPION --*/
+/*-- Section 2 - SUNFLOWER CHAMPION --*/
 
 .thumbnails_2 {
     margin: 0 -15px 44px -15px;
@@ -2115,7 +2175,7 @@ h2.red {
     transform: translate(-50%, -50%);
 }
 
-/*-- /Section 1 - SUNFLOWER CHAMPION --*/
+/*-- /Section 2 - SUNFLOWER CHAMPION --*/
 
 /*-- Section 1 - Contacts --*/
 
@@ -2215,6 +2275,10 @@ h2.red {
     font-weight: bold;
 }
 
+/*-- /Section 1 - Vacansies --*/
+
+/*-- Section 2 - Vacansies --*/
+
 .thumbnails_3 {
     margin: 9px -15px 128px -15px;
 }
@@ -2258,7 +2322,7 @@ p.date {
     margin: 23px 0 0 0;
 }
 
-/*-- /Section 1 - Vacansies --*/
+/*-- /Section 2 - Vacansies --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */

@@ -2,6 +2,10 @@ $(window).on("load",function(){
 
 	$("scroll").mCustomScrollbar();
 
+	$(".scroll_x").mCustomScrollbar({
+		axis: "x"
+	});
+
 });
 
 $(document).ready(function() {
@@ -30,7 +34,15 @@ $(document).ready(function() {
 	        slidesToShow: 1,
 	        slidesToScroll: 1,
 	        fade: true,
-	        asNavFor: ".good_slider_miniature"
+	        asNavFor: ".good_slider_miniature",
+	        responsive: [
+			    {
+			      breakpoint: 700,
+			      settings: {
+			        arrows: true
+			      }
+			    }
+			  ]
 	    });
 
 	    $(".good_slider_miniature").not(".slick-initialized").slick({
@@ -45,7 +57,41 @@ $(document).ready(function() {
             verticalSwiping: true,
             infinite: true,
             focusOnSelect: true,
-            asNavFor: ".good_slider_big"
+            asNavFor: ".good_slider_big",
+            responsive: [
+			    {
+			      breakpoint: 700,
+			      settings: {
+			        slidesToShow: 6,
+			        slidesToScroll: 1,
+			        vertical: false
+			      }
+			    },
+			    {
+			      breakpoint: 610,
+			      settings: {
+			        slidesToShow: 5,
+			        slidesToScroll: 1,
+			        vertical: false
+			      }
+			    },
+			    {
+			      breakpoint: 480,
+			      settings: {
+			        slidesToShow: 4,
+			        slidesToScroll: 1,
+			        vertical: false
+			      }
+			    },
+			    {
+			      breakpoint: 400,
+			      settings: {
+			        slidesToShow: 3,
+			        slidesToScroll: 1,
+			        vertical: false
+			      }
+			    }
+			  ]
 	    });
 
 	});

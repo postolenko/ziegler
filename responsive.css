@@ -193,6 +193,66 @@
 
 	/*-- /Section 2 --*/
 
+	/*-- Section 1 - Corn Champion --*/
+
+	.two-cols-templ {
+	    margin: 20px 0;
+	}
+
+	.two-cols-templ .col {
+	    width: 100%;
+	}
+
+	.two-cols-templ .col:nth-child(odd) {
+	    padding-right: 0;
+	}
+
+	.two-cols-templ .col:nth-child(even) {
+	    padding-left: 0;
+	}
+
+	.two-cols-templ.slider_templ .col:nth-child(odd) {
+	    padding-right: 0;
+	}
+
+	.two-cols-templ.slider_templ .col:nth-child(even) {
+	    padding-left: 0;
+	}
+
+	.good_slider_miniature {
+	    height: 407px;
+	}
+
+	.good_slider_big .slide {
+	    height: 400px;
+	}
+
+	.good_slider_big .slide .img-box {
+	    height: 400px;
+	}
+
+	/*-- /Section 1 - Corn Champion --*/
+
+	/*-- Section 1 - Contacts --*/
+
+	.contacts-templ .col-1 {
+	    width: 32%;
+	}
+
+	.contacts-templ .col-2 {
+	    width: 68%;
+	}
+
+	/*-- /Section 1 - Contacts --*/
+
+	/*-- Section 2 - Vacansies --*/
+
+	.thumb-3 {
+	    width: 50%;
+	}
+
+	/*-- /Section 2 - Vacansies --*/
+
 	/*-- Footer --*/
 
 	.footer-nav {
@@ -269,6 +329,18 @@
 	}
 
 	/*-- /Section 2 --*/
+
+	/*-- Section 1 - Contacts --*/
+
+	.contacts-templ .col-1 {
+	    width: 33%;
+	}
+
+	.contacts-templ .col-2 {
+	    width: 67%;
+	}
+
+	/*-- /Section 1 - Contacts --*/
 
 }
 
@@ -392,6 +464,24 @@
 
 	/*-- /Section 2 --*/
 
+	/*-- Section 1 - Contacts --*/
+
+	.contacts-templ {
+	    margin: 15px 0 45px 0;
+	}
+
+	.contacts-templ .col-1 {
+	    width: 100%;
+	    padding-right: 0
+	}
+
+	.contacts-templ .col-2 {
+	    width: 100%;
+	    padding-left: 0;
+	}
+
+	/*-- /Section 1 - Contacts --*/
+
 	/*-- Footer --*/
 
 	.footer .col-1 {
@@ -467,6 +557,86 @@
 
 	/*-- /Section 2 --*/
 
+	/*-- Section 1 - Corn Champion --*/
+
+	.good-slider_wrapp .slider-col-1 {
+	    width: 100%;
+	}
+
+	.good-slider_wrapp .slider-col-2 {
+		width: 100%;
+	}
+
+	.good_slider_miniature {
+	    height: 98px;
+	}
+
+	.good_slider_miniature .slide {
+	    margin: 11px 10px;
+	}
+
+	.good_slider_miniature .slide .img-box {
+	    width: 100%;
+	}
+
+	/*-- /Section 1 - Corn Champion --*/
+
+	/*-- Section 2 - Page --*/
+
+	.thumbnails_1 {
+	    margin: 20px 0;
+	}
+
+	.thumb-1 {
+	    width: 100%;
+	    padding: 15px 0;
+	}
+
+	.thumb-1 .img-box {
+	    height: 357px;
+	}
+
+	/*-- /Section 2 - Page --*/
+
+	/*-- Section 2 - SUNFLOWER CHAMPION */
+
+	.thumbnails_2 {
+	    margin: 0 0 44px 0;
+	}
+
+	.thumb-2 {
+	    width: 100%;
+	    padding: 15px 0;
+	}
+
+	.thumb-2 .img-box {
+	    height: 330px;
+	}
+
+	/*-- Section 2 - SUNFLOWER CHAMPION */
+
+	/*-- Section 2 - Vacansies --*/
+
+	.thumbnails_3 {
+	    margin: 9px 0 80px 0;
+	}
+
+	.thumb-3 {
+	    width: 100%;
+	    padding: 10px 0;
+	}
+
+	.thumb-3 .inner {
+		height: auto !important;
+	    padding: 28px 7% 44px 7%;
+	}
+
+	.thumb-3 .desc {
+	    margin: 15px 0 0 0;
+	}
+
+	/*-- /Section 2 - Vacansies --*/
+
 	/*-- Footer --*/
 
 	.footer .col {
@@ -533,12 +703,33 @@
 	}
 
 	/*-- /Section 1 --*/
+
+	/*-- Section 2 - Vacansies --*/
+
+	.thumb-3 .inner {
+	    padding: 28px 7%;
+	}
+
+	.thumb-3 p {
+	    font-size: 21px;
+	    line-height: 28px;
+	}
+
+	/*-- /Section 2 - Vacansies --*/
 	
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 350px) {
 
-	
+	/*-- Section 1 - Corn Champion --*/
+	.good_slider_big .slide {
+		height: 320px;
+	}
+
+	.good_slider_big .slide .img-box {
+		height: 320px;
+	}
+	/*-- /Section 1 - Corn Champion --*/
 
 }
 
