@@ -6,4 +6,3 @@
 # http://postolenko.github.io/ziegler/sunflower_champion.html
 # http://postolenko.github.io/ziegler/contacts.html
 # http://postolenko.github.io/ziegler/vacansies.html
-# http://postolenko.github.io/ziegler/images.html
